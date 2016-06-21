@@ -225,6 +225,7 @@ int main() {
   printf("\nUse 'w, a, s, d' to move and 'q' to quit\n\n");
   start_game (board);
   show_game(board, score);
+  
   while (win != (-1) && win!= (1)){
       k = 0;
       scanf("%c", &move);
